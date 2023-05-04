@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="HSTi99,KYp5)f!%S!:8_">mySprite</variable></variables><block type="pxt-on-start" id="fU{nJZW4z,o,lbxcYR7]" x="0" y="0"><statement name="HANDLER"><block type="run_image_animation" id="k#6[o(kijomV]%Dj:O;,"><value name="sprite"><block type="variables_get" id=";S})[SZ~1m?8?Vh,X@}n"><field name="VAR" id="HSTi99,KYp5)f!%S!:8_">mySprite</field></block></value><value name="frames"><block type="animation_editor" id="}6S0*2qCeQ2^H~y3Ej0r"><field name="frames">[img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`]</field><data>{"commentRefs":[],"fieldData":{"frames":"}6S0*2qCeQ2^H~y3Ej0r"}}</data></block></value><value name="frameInterval"><shadow type="timePicker" id="e`{-sC$QVA;}@9Mm=~43"><field name="ms">500</field></shadow></value><value name="loop"><shadow type="toggleOnOff" id="5G+@]Er2!YQ$U$5,exG3"><field name="on">false</field></shadow></value><next><block type="game_control_sprite" id="CeA#)YK|1yI|OQjbX2{+"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="RjxqUXgO$qR;[0v#Z?hD"><field name="VAR" id="HSTi99,KYp5)f!%S!:8_">mySprite</field></block></value><value name="vx"><shadow type="spriteSpeedPicker" id="96a.oYAtsGbLH_HgXM(1"><field name="speed">100</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker" id="MWCMdR3MUA85IN/yR{Og"><field name="speed">100</field></shadow></value><next><block type="game_setgameovereffect" id="bFzZwib+!|;X=TT~$Qhv"><field name="effect">effects.confetti</field><value name="win"><shadow type="toggleWinLose" id="*@pgq!!iv/{Zxyd/Jp/f"><field name="win">true</field></shadow></value></block></next></block></next></block></statement></block></xml>
